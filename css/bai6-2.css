@@ -24,18 +24,23 @@
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid gray;
-    padding: 10px 0 ;
-    justify-content: space-between;
+    /* padding: 10px 0 ; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.left {
+    width: 20%;
 }
 .ima {
-    padding: 10px 0;
-    width: 8%;
-    height: 100px;
-    object-fit:scale-down;
+    padding: 5%;
+    width: 90%;
+    aspect-ratio: 4/3;
+    /* object-fit:scale-down; */
 }
 .right {
-    padding-top: -20px;
-    padding-left: 10px;
+    align-content: flex-start;
+    /* padding-top: -20px;
+    padding-left: 10px; */
 }
 .phan-loai {
     color: orange;
