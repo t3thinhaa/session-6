@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px -10px;
+}
+.title {
+    align-items: center;
+    text-align: center;
+    background-color: #F7C363;
+    color: red;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    justify-content: center;
+    flex: 1;
+}
+.content1 {
+    background-color: #FFFFCC;
+    padding-left: 30px;
+}
+.di-tich {
+    border-top: 2px solid palevioletred;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding: 10px 0 ;
+    justify-content: space-between;
+}
+.ima {
+    padding: 10px 0;
+    width: 8%;
+    height: 100px;
+    object-fit:scale-down;
+}
+.right {
+    padding-top: -20px;
+    padding-left: 10px;
+}
+.phan-loai {
+    color: orange;
+    font-weight: 500;
+}
+.place-name {
+    color: blue;
+    font-weight: 500;
+}
+.headline {
+    text-transform: capitalize;
+    color: orange;
+}
+.footer {
+    text-align: center;
+    border-top: 2px solid palevioletred;
+    color: #22918A;
+}
