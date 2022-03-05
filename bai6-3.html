@@ -3,8 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <title>Bài 6-3</title>
+    <link rel="stylesheet" href="css/bai6-3.css">
 </head>
 <body>
+<div class="container">
+    <!-- MỞ ĐẦU CÓ 1 H1 -->
+    <p class="res">resume</p>
     
+    <!-- CHỨA TÊN VÀ VỊ TRÍ ỨNG TUYỂN -->
+    <div class="head">
+        <p class="head1">bui quang lan</p>
+        <p class="head2">pc gammer</p>
+    </div>
+
+    <!-- CHỨA TOÀN BỘ PHẦN Ở GIỮA -->
+    <div class="content-container"> 
+        <!-- CỘT BÊN TRÁI CÓ ẢNH VÀ PROFILE CƠ BẢN-->
+        <div class="left"> 
+            <img src="images/buiquanglan.jpg" class="ava" alt="profile-picture">
+            <span class="prop">PROFILE</span>
+            <span class="bold">Name</span>
+            <span class="not_bold">Bui Quang Lan</span>
+            <span class="bold">Date of Birth</span>
+            <span class="not_bold">21/6/2017</span>
+            <span class="bold">Phone</span>
+            <span class="not_bold">0796699805</span>
+            <span class="bold">Email</span>
+            <span class="not_bold">buiquanglan@gmail.com</span>
+            <span class="bold">Website</span>
+            <span class="not_bold">www.tiktok.com/buiquang_lan</span>
+            <span class="prop">HOBBIES</span>
+            <ul>
+                <li><span class="not_bold">Dance</span></li>
+                <li><span class="not_bold">Read Book</span></li>
+                <li><span class="not_bold">Swimming</span></li>
+            </ul>
+        </div>
+        <!-- HẾT CỘT TRÁI -->
+
+        <!-- CỘT BÊN PHẢI GỒM KINH NGHIỆM KĨ NĂNG CÁC THỨ -->
+        <div class="right">
+            <!-- PHẦN JOB EXPERIENCE -->
+            <span class="prop">JOB Experiences</span>
+            <!-- 3 DIV CHỨA NĂM VÀ NƠI LÀM VIỆC CỦA JOB-EXP -->
+            <div class="je">
+                <div class="year">
+                    <p class="year">2014-2015</p>
+                </div>
+                <div class="work">
+                    <h3>company name 1</h3>
+                    <h4>position held</h4>
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque quod omnis dicta vel, asperiores exercitationem alias suscipit unde.</span>
+                </div>
+            </div>
+            <div class="je">
+                <div class="year">
+                    <p class="year">2011-2013</p>
+                </div>
+                <div class="work">
+                    <h3>company name 1</h3>
+                    <h4>position held</h4>
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque quod omnis dicta vel, asperiores exercitationem alias suscipit unde.</span>
+                </div>
+            </div>
+            <div class="je">
+                <div class="year">
+                    <p class="year">2009-2010</p>
+                </div>
+                <div class="work">
+                    <h3>company name 1</h3>
+                    <h4>position held</h4>
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque quod omnis dicta vel, asperiores exercitationem alias suscipit unde.</span>
+                </div>
+            </div>
+            <!-- HẾT 3 DIV CỦA JOB -->
+
+            <!-- PHẦN EDUCATION -->
+            <span class="prop">education</span>
+            <!-- 2 DIV CỦA EDUCATION(TƯƠNG TỰ JOB) -->
+            <div class="je">
+                <div class="year">
+                    <p class="year">2008-2012</p>
+                </div>
+                <div class="work">
+                    <h3>university name</h3>
+                    <h4>course studied</h4>
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque quod omnis dicta vel, asperiores exercitationem alias suscipit unde.</span>
+                </div>
+            </div>
+            <div class="je">
+                <div class="year">
+                    <p class="year">2006-2007</p>
+                </div>
+                <div class="work">
+                    <h3>university name</h3>
+                    <h4>course studied</h4>
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque quod omnis dicta vel, asperiores exercitationem alias suscipit unde.</span>
+                </div>
+            </div>
+            <!-- HẾT 2 DIV CỦA EDUCATION -->
+
+            <!-- 2 PHẦN SKILLS -->
+            <span class="prop" id="prop2">professional skills</span>
+                <!-- 4 DIV PROF CHỨA TÊN SKILL VÀ THANH ĐÁNH GIÁ -->
+                <div class="skills">
+                    <div class="skill_name">Photoshop</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="pts"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">Illustrator</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="ill"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">HTML (5)</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="html"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">CSS (3)</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="css"></div>
+                    </div>
+                </div>
+                <!-- HẾT 4DIV PROF -->
+            
+            <!-- PHẦN CỦA PERSONAL SKILLS -->
+            <span class="prop" id="prop2">personal skills</span>
+                <!-- 4 DIV PERS TÊN SKILL VÀ THANH ĐÁNH GIÁ -->
+                <div class="skills">
+                    <div class="skill_name">Team Work</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="tw"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">Timekeeping</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="tk"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">Organization</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="org"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill_name">Communication</div>
+                    <div class="mastery">
+                        <div class="mastery_point" id="com"></div>
+                    </div>
+                </div>
+                <!-- HẾT 4 DIV PERS -->
+        </div>
+        <!-- HẾT CỘT PHẢI -->
+    </div>
+</div>
 </body>
 </html>
