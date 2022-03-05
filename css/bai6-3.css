@@ -93,11 +93,11 @@ body
     margin-bottom: 20px;
     font-weight: lighter;
 }
-.hobbies {
+.left .hobbies {
     line-height: 150%;
     list-style-type: none;
 }
-.hobbies ion-icon {
+.left .hobbies ion-icon {
     color: #FAFAFA;
 }
 /* HẾT LEFT */
