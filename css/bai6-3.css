@@ -1,2 +1,163 @@
-/* dòng resume đầu tiên */
+body
+{
+    margin:auto;
+    font-family: sans-serif;
+    background-color:black;
+}
+/* tỉ lệ tờ giấy */
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 0 2% 2% 2%;
+}
+/* PHẦN HEAD */
+.res {
+    color: white;
+    background-color: black;
+    width:30%;
+    padding: 50px 0 10px 20px;
+    font-size:150%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.head {
+    width: 80%;
+    margin: auto;
+    color: gray;
+    letter-spacing: 5px;
+}
+.head1 {
+    font-size: 300%;
+    text-transform: uppercase;
+}
+.head2 {
+    font-style:italic;
+    margin-top:-30px;
+    text-transform: capitalize;
+    font-weight: 430;
+    font-size: large;
+}
+/* HẾT PHẦN HEAD */
 
+/* PHẦN CONTENT */
+.content-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+/* LEFT */
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FAFAFA;
+    width: 30%;
+}
+.left .ava {
+    width: calc(100% - 24px);
+    aspect-ratio: 4/4;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 12px 12px;
+    /* flex-shrink: 0; */
+}
+.left .pro {
+    line-height: 150%;
+    width: calc(100% - 24px);
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+
+}
+.prop {
+    width: calc(100% - 24px);
+    margin-left: 12px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: large;
+    color: gray;
+    font-weight: bold;
+}
+.left .bold {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.left .not_bold {
+    font-size: medium;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.hobbies {
+    line-height: 150%;
+    list-style-type: none;
+}
+.hobbies ion-icon {
+    color: #FAFAFA;
+}
+/* HẾT LEFT */
+
+/* RIGHT */
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    font-size: 90%;
+}
+/* PHẦN JOB-EXP */
+.je {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.je .year {
+    width: 30%;
+}
+.je .year .yea {
+    font-weight: bolder;
+}
+.je .work {
+    width: 69%;
+}
+.je .work .job {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bolder;
+}
+.je .work .pos{
+    text-transform: capitalize;
+    color: gray;
+}
+.je .work .desc {
+    font-size: 13px;
+    font-style: italic;
+}
+/* HẾT PHẦN JOB-EXP */
+/* PHẦN SKILL */
+.psk {
+    width: 80%;
+    margin: auto;
+}
+.psk .skills {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+.psk .skill_name {
+    width: 40%;
+    height: 10px;
+}
+.psk .mastery {
+    background-color: gray;
+    width: 58%;
+    height: 10px;
+}
+.psk .mastery_point {
+    background-color: black;
+    height: 10px;
+}
